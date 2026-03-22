@@ -4,21 +4,49 @@
 
 Tables included are orders_table and products_table.
 
-orders_table columns include:                  products_table columns include:
-   - order_id                                     - product_id
-   - product_id                                   - product_name 
-   - customer_id                                  - product_category
-   - price                                        - manufacturing_city
-   - quantity                                     - size
-   - discount                                     - color
-   - order_date                                   - SKU
-   - shipping_date                                - unit_cost
-   - shipping_method                              - release_year
+orders_table columns include:                  
+   - order_id                                     
+   - product_id                                   
+   - customer_id                                  
+   - price                                       
+   - quantity                                     
+   - discount                                     
+   - order_date                                   
+   - shipping_date                                
+   - shipping_method                              
    - order_status
 
-I will begin my analysis by importing both tables into Excel and merging the two .csv files into one .xlsx file having two sheets to work with. I will check for duplicate rows. I will remove extra spaces. I will convert text dates to integer dates. I will filter columns to check for blanks and decide to replace with "Unknown", "NA", or just leave blank.
+products_table columns include:
+   - product_id
+   - product_name
+   - product_category
+   - manufacturing_city
+   - size
+   - color
+   - SKU
+   - unit_cost
+   - release_year
 
+I will begin my analysis by importing both tables into Excel and merging the two .csv files into one .xlsx file having two sheets to work with. I will check for duplicate rows. I will remove extra spaces. I will convert text dates to integer dates. I will filter columns to check for blanks and decide to replace with "Unknown", "NA", or just leave blank.
 I will now convert my .xlsx file into a .csv file so that I can import it into Bigquery so that I can run some SQL commands since Bigquery does not accept .xlsx files.
+
+SQL commands used for data analysis:
+
+To find 'Total Revenue':
+SELECT SUM(price * quantity) AS total_revenue
+FROM orders;
+
+To find 'Orders by shipping method':
+SELECT shipping_method, COUNT(*) AS total_orders
+FROM orders
+GROUP BY shipping_method;
+
+To find 'Revenue by product':
+SELECT
+   p.product_name,
+   SUM(o.price * o.quantity) AS revenue
+FROM orders o
+JOIN product p
 
 
 
