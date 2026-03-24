@@ -32,21 +32,76 @@ I will now convert my .xlsx file into a .csv file so that I can import it into B
 
 SQL commands used for data analysis:
 
-To find 'Total Revenue':
+To find 'Total Revenue'
+</> SQL
 SELECT SUM(price * quantity) AS total_revenue
-FROM orders;
+FROM `e-nebula-483700-a8.case_study1.cs_orders_table`
 
-To find 'Orders by shipping method':
+
+To find 'Orders by shipping method'
 SELECT shipping_method, COUNT(*) AS total_orders
 FROM orders
 GROUP BY shipping_method;
 
-To find 'Revenue by product':
+To find 'Revenue by product'
 SELECT
    p.product_name,
    SUM(o.price * o.quantity) AS revenue
 FROM orders o
 JOIN product p
+ON o.product_id = p.product_id
+GROUP BY p.product_name
+ORDER BY revenue DESC;
+
+To find 'Revenue by category'
+SELECT
+   p.product_category,
+   SUM(o.price * o.quantity) AS revenue
+FROM orders o
+JOIN product p
+ON o.product_id = p.product_id
+GROUP BY p.product_category;
+
+To find top 5 best selling products
+SELECT
+   p.product_name,
+   SUM(o.quantity) AS total_sold
+FROM orders o
+JOIN products p
+ON o.product_id = p.product_id
+GROUP BY p.product_name
+ORDER BY total_sold DESC
+LIMIT 5;
+
+To find top 10 customers by spending
+SELECT
+   customer_id,
+   SUM(price * quantity) AS total_spent
+FROM orders
+GROUP BY customer_id
+ORDER BY total_spent DESC
+LIMIT 10;
+
+To find most profitable product color
+SELECT
+   p.color,
+   SUM(o.price * o.quantity) AS revenue
+FROM orders o
+JOIN products p
+ON o.product_id = p.product_id
+GROUP BY p.color
+ORDER BY revenue DESC;
+
+To find products with declining monthly sales
+SELECT
+   p.product_name,
+   DATE_TRUNC('month', o.order_date) AS month,
+   SUM(o.quantity) AS monthly_sales
+FROM orders o
+JOIN products p
+ON o.product_id = p.product_id
+GROUP BY p.product_name, month
+ORDER BY p.product_name, month;
 
 
 
@@ -94,3 +149,7 @@ Data Cleaning & Preprocessing
 * List insights here. 
 
 * I will address the stakeholders here.
+
+
+![CS shipping method](https://github.com/user-attachments/assets/0e9a9dfe-3a60-4879-816d-62961cf6baaa)
+
