@@ -33,17 +33,17 @@ I will now convert my .xlsx file into a .csv file so that I can import it into B
 SQL commands used for data analysis:
 
 To find 'Total Revenue'
-</> SQL
 SELECT SUM(price * quantity) AS total_revenue
 FROM `e-nebula-483700-a8.case_study1.cs_orders_table`
 
-
 To find 'Orders by shipping method'
+<img src="https://github.com/user-attachments/assets/0e9a9dfe-3a60-4879-816d-62961cf6baaa" width="450">
 SELECT shipping_method, COUNT(*) AS total_orders
 FROM orders
 GROUP BY shipping_method;
 
 To find 'Revenue by product'
+<img src="https://github.com/user-attachments/assets/18f30af4-84c6-4555-8def-ec644cfbd02c" width="450">
 SELECT
    p.product_name,
    SUM(o.price * o.quantity) AS revenue
@@ -54,6 +54,7 @@ GROUP BY p.product_name
 ORDER BY revenue DESC;
 
 To find 'Revenue by category'
+<img src="https://github.com/user-attachments/assets/41fdefe1-a1ac-45be-a6c8-a3fdb3f1045a" width="450">
 SELECT
    p.product_category,
    SUM(o.price * o.quantity) AS revenue
@@ -63,6 +64,7 @@ ON o.product_id = p.product_id
 GROUP BY p.product_category;
 
 To find top 5 best selling products
+<img src="https://github.com/user-attachments/assets/a313c775-c444-4e65-9d49-528dac95c564" width="450">
 SELECT
    p.product_name,
    SUM(o.quantity) AS total_sold
@@ -74,6 +76,7 @@ ORDER BY total_sold DESC
 LIMIT 5;
 
 To find top 10 customers by spending
+<img src="https://github.com/user-attachments/assets/321dde2d-f53e-4a87-9a15-e80bd043aa19" width="450">
 SELECT
    customer_id,
    SUM(price * quantity) AS total_spent
@@ -83,6 +86,7 @@ ORDER BY total_spent DESC
 LIMIT 10;
 
 To find most profitable product color
+<img src="https://github.com/user-attachments/assets/40864d0c-95b2-4dcf-9fee-6d58aff8fae8" width="450">
 SELECT
    p.color,
    SUM(o.price * o.quantity) AS revenue
@@ -93,6 +97,8 @@ GROUP BY p.color
 ORDER BY revenue DESC;
 
 To find products with declining monthly sales
+<img src="https://github.com/user-attachments/assets/6aeeb954-cca9-4fb6-9e43-860ab45aa013" width="450">
+<img src="https://github.com/user-attachments/assets/f5fa63f1-c213-4f4c-8eae-6de7107298bb" width="450">
 SELECT
    p.product_name,
    DATE_TRUNC('month', o.order_date) AS month,
@@ -150,6 +156,7 @@ Data Cleaning & Preprocessing
 
 * I will address the stakeholders here.
 
+<img src="https://github.com/user-attachments/assets/0e9a9dfe-3a60-4879-816d-62961cf6baaa" width="450">
 
-![CS shipping method](https://github.com/user-attachments/assets/0e9a9dfe-3a60-4879-816d-62961cf6baaa)
+
 
