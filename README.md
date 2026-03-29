@@ -61,12 +61,13 @@ I will then convert my .xlsx file into a .csv file so that I can import it into 
 
 
 
-# To find 'Total category profit':
+# To find 'Total profit by category':
 <img src="https://github.com/user-attachments/assets/fd7e2f20-75f1-475a-9c6c-270fdf299056" width="450">
 <br>
 <img src="https://github.com/user-attachments/assets/b5851036-5020-4d07-a8ff-13880e491e5d" width="450">
 <br>
-<img src="https://github.com/user-attachments/assets/5cfb40a0-62ea-42c1-ae05-b096ecabfaaa" width="450">
+<img src="https://github.com/user-attachments/assets/d824ea32-ddb9-48c6-9e08-1557a80b769c" width="450">
+
 
 
 
