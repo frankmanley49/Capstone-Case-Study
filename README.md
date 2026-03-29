@@ -67,7 +67,9 @@ SQL commands used for data analysis---
 
 # To find 'Top 5 best selling products':
 
-<img src="https://github.com/user-attachments/assets/a313c775-c444-4e65-9d49-528dac95c564" width="450">
+<img src="https://github.com/user-attachments/assets/50267dcb-747d-4f81-a80f-4ca1ec99c679" width="450">
+<br>
+<img src="https://github.com/user-attachments/assets/fde29aa5-a2e9-4335-8528-31b0660ed134" width="450">
 
 
 
