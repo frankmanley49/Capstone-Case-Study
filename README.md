@@ -36,16 +36,8 @@ To find 'Total Revenue':
 
 <img src="https://github.com/user-attachments/assets/39ebb547-45ec-47da-a284-420c1c63672c" width="450">
 
+To find 'Orders by shipping method':
 
-
-
-
-
-
-
-
-
-To find 'Orders by shipping method'
 <img src="https://github.com/user-attachments/assets/0e9a9dfe-3a60-4879-816d-62961cf6baaa" width="450">
 SELECT shipping_method, COUNT(*) AS total_orders
 FROM orders
