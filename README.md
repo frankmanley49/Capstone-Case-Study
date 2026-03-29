@@ -32,13 +32,13 @@ I will now convert my .xlsx file into a .csv file so that I can import it into B
 
 SQL commands used for data analysis---
 
-#To find 'Total Revenue':
+# To find 'Total Revenue':
 
-<img src="https://github.com/user-attachments/assets/39ebb547-45ec-47da-a284-420c1c63672c" width="450">
+<img src="https://github.com/user-attachments/assets/39ebb547-45ec-47da-a284-420c1c63672c" width="450"> <br>
 
 
 
-#To find 'Orders by shipping method':
+# To find 'Orders by shipping method':
 
 <img src="https://github.com/user-attachments/assets/0e9a9dfe-3a60-4879-816d-62961cf6baaa" width="450">
 SELECT shipping_method, COUNT(*) AS total_orders
@@ -48,7 +48,7 @@ GROUP BY shipping_method;
 
 
 
-#To find 'Revenue by product':
+# To find 'Revenue by product':
 
 <img src="https://github.com/user-attachments/assets/18f30af4-84c6-4555-8def-ec644cfbd02c" width="450">
 SELECT
