@@ -33,9 +33,10 @@ I will now convert my .xlsx file into a .csv file so that I can import it into B
 SQL commands used for data analysis:
 
 To find 'Total Revenue'
-SELECT SUM(price * quantity) AS total_revenue
-FROM `e-nebula-483700-a8.case_study1.cs_orders_table`
-<img src="https://github.com/user-attachments/assets/39ebb547-45ec-47da-a284-420c1c63672c" width="450">
+<img src="https://github.com/user-attachments/assets/39ebb547-45ec-47da-a284-420c1c63672c" width="450"> <br>
+
+
+
 
 
 
