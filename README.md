@@ -34,10 +34,8 @@ SQL commands used for data analysis---
 
 # To find 'Total Revenue':
 
-<img src="https://github.com/user-attachments/assets/39ebb547-45ec-47da-a284-420c1c63672c" width="450"> <br>
-
 <img src="https://github.com/user-attachments/assets/1259388b-7134-4b27-b9f3-f7b4cb9b8d39" width="450">
-
+<br>
 <img src="https://github.com/user-attachments/assets/0b709784-8379-40b3-a0f6-559684db134f" width="450">
 
 
