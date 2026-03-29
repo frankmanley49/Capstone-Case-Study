@@ -59,7 +59,10 @@ SQL commands used for data analysis---
 
 # To find 'Revenue by category':
 
-<img src="https://github.com/user-attachments/assets/b588faa7-f7cd-4cb0-b448-448bc905802e" width="450">
+<img src="https://github.com/user-attachments/assets/e1b483f6-1542-4183-ae88-b8de968baa2b" width="450">
+<br>
+<img src="https://github.com/user-attachments/assets/e2e4f252-0660-4939-add0-b42456b267d0" width="450">
+
 
 
 # To find 'Top 5 best selling products':
