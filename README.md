@@ -75,8 +75,9 @@ SQL commands used for data analysis---
 
 # To find 'Top 10 customers by spending':
 
-<img src="https://github.com/user-attachments/assets/321dde2d-f53e-4a87-9a15-e80bd043aa19" width="450">
-
+<img src="https://github.com/user-attachments/assets/b56bd4fa-c499-4a8b-9244-c46c4277c078" width="450">
+<br>
+<img src="https://github.com/user-attachments/assets/48a11d36-208b-42ca-9520-5439f8c103c5" width="450">
 
 
 # To find 'Most profitable product color':
