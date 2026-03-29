@@ -82,9 +82,11 @@ SQL commands used for data analysis---
 
 # To find 'Most profitable product color':
 
-<img src="https://github.com/user-attachments/assets/20cd61a8-f064-4216-bed4-45cabb3dae58" width="450">
+<img src="https://github.com/user-attachments/assets/9721589b-b6fa-4693-87d9-3543d9ff642b" width="450">
 <br>
-<img src="https://github.com/user-attachments/assets/e91b0dcf-6511-40ad-95be-f7e31c7b3807" width="450">
+<img src="https://github.com/user-attachments/assets/3753dede-4097-419b-80e0-8a6b6abe3828" width="450">
+
+
 
 
 
