@@ -30,9 +30,9 @@ products_table columns include:
 I will begin my analysis by importing both tables into Excel and merging the two .csv files into one .xlsx file having two sheets to work with. I will check for duplicate rows. I will remove extra spaces. I will convert text dates to integer dates. I will filter columns to check for blanks and decide to replace with "Unknown", "NA", or just leave blank.
 I will now convert my .xlsx file into a .csv file so that I can import it into Bigquery so that I can run some SQL commands since Bigquery does not accept .xlsx files.
 
-SQL commands used for data analysis:
+SQL commands used for data analysis---
 
-To find 'Total Revenue'
+To find 'Total Revenue':
 <img src="https://github.com/user-attachments/assets/39ebb547-45ec-47da-a284-420c1c63672c" width="450">
 
 
