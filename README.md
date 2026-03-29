@@ -54,63 +54,27 @@ SQL commands used for data analysis---
 
 # To find 'Revenue by category':
 <img src="https://github.com/user-attachments/assets/41fdefe1-a1ac-45be-a6c8-a3fdb3f1045a" width="450">
-SELECT
-   p.product_category,
-   SUM(o.price * o.quantity) AS revenue
-FROM orders o
-JOIN product p
-ON o.product_id = p.product_id
-GROUP BY p.product_category;
 
 
-To find top 5 best selling products
+# To find 'Top 5 best selling products':
 <img src="https://github.com/user-attachments/assets/a313c775-c444-4e65-9d49-528dac95c564" width="450">
-SELECT
-   p.product_name,
-   SUM(o.quantity) AS total_sold
-FROM orders o
-JOIN products p
-ON o.product_id = p.product_id
-GROUP BY p.product_name
-ORDER BY total_sold DESC
-LIMIT 5;
 
 
-To find top 10 customers by spending
+
+# To find 'Top 10 customers by spending':
 <img src="https://github.com/user-attachments/assets/321dde2d-f53e-4a87-9a15-e80bd043aa19" width="450">
-SELECT
-   customer_id,
-   SUM(price * quantity) AS total_spent
-FROM orders
-GROUP BY customer_id
-ORDER BY total_spent DESC
-LIMIT 10;
 
 
-To find most profitable product color
+
+# To find 'Most profitable product color':
 <img src="https://github.com/user-attachments/assets/40864d0c-95b2-4dcf-9fee-6d58aff8fae8" width="450">
-SELECT
-   p.color,
-   SUM(o.price * o.quantity) AS revenue
-FROM orders o
-JOIN products p
-ON o.product_id = p.product_id
-GROUP BY p.color
-ORDER BY revenue DESC;
 
 
-To find products with declining monthly sales
+
+# To find 'Products with declining monthly sales':
 <img src="https://github.com/user-attachments/assets/6aeeb954-cca9-4fb6-9e43-860ab45aa013" width="450">
 <img src="https://github.com/user-attachments/assets/f5fa63f1-c213-4f4c-8eae-6de7107298bb" width="450">
-SELECT
-   p.product_name,
-   DATE_TRUNC('month', o.order_date) AS month,
-   SUM(o.quantity) AS monthly_sales
-FROM orders o
-JOIN products p
-ON o.product_id = p.product_id
-GROUP BY p.product_name, month
-ORDER BY p.product_name, month;
+
 
 
 
