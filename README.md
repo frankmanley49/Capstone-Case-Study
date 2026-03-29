@@ -41,9 +41,7 @@ SQL commands used for data analysis---
 # To find 'Orders by shipping method':
 
 <img src="https://github.com/user-attachments/assets/0e9a9dfe-3a60-4879-816d-62961cf6baaa" width="450">
-SELECT shipping_method, COUNT(*) AS total_orders
-FROM orders
-GROUP BY shipping_method;
+
 
 
 
@@ -51,17 +49,10 @@ GROUP BY shipping_method;
 # To find 'Revenue by product':
 
 <img src="https://github.com/user-attachments/assets/18f30af4-84c6-4555-8def-ec644cfbd02c" width="450">
-SELECT
-   p.product_name,
-   SUM(o.price * o.quantity) AS revenue
-FROM orders o
-JOIN product p
-ON o.product_id = p.product_id
-GROUP BY p.product_name
-ORDER BY revenue DESC;
 
 
-To find 'Revenue by category'
+
+# To find 'Revenue by category':
 <img src="https://github.com/user-attachments/assets/41fdefe1-a1ac-45be-a6c8-a3fdb3f1045a" width="450">
 SELECT
    p.product_category,
