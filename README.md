@@ -51,7 +51,9 @@ SQL commands used for data analysis---
 
 # To find 'Revenue by product':
 
-<img src="https://github.com/user-attachments/assets/d4b3854b-8642-4859-a859-2ba9d0747701" width="450">
+<img src="https://github.com/user-attachments/assets/140f97d6-0d1b-4eee-af4b-9a4b067c6b04" width="450">
+<br>
+<img src="https://github.com/user-attachments/assets/5945ba8f-349b-4a07-9a7a-fe01b3457c7b" width="450">
 
 
 
