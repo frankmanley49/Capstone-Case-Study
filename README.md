@@ -39,52 +39,46 @@ SQL commands used for data analysis---
 
 
 # To find 'Orders by shipping method':
-
 <img src="https://github.com/user-attachments/assets/eba8fa48-7365-400d-a715-09f7bc112b86" width="450">
 <br>
 <img src="https://github.com/user-attachments/assets/2fb9f817-e214-43d5-a087-817c317bddcf" width="450">
 
 
 # To find 'Revenue by product':
-
 <img src="https://github.com/user-attachments/assets/140f97d6-0d1b-4eee-af4b-9a4b067c6b04" width="450">
 <br>
 <img src="https://github.com/user-attachments/assets/5945ba8f-349b-4a07-9a7a-fe01b3457c7b" width="450">
 
 
 # To find 'Revenue by category':
-
 <img src="https://github.com/user-attachments/assets/e1b483f6-1542-4183-ae88-b8de968baa2b" width="450">
 <br>
 <img src="https://github.com/user-attachments/assets/e2e4f252-0660-4939-add0-b42456b267d0" width="450">
 
 
 # To find 'Top 5 best selling products':
-
 <img src="https://github.com/user-attachments/assets/50267dcb-747d-4f81-a80f-4ca1ec99c679" width="450">
 <br>
 <img src="https://github.com/user-attachments/assets/fde29aa5-a2e9-4335-8528-31b0660ed134" width="450">
 
 
 # To find 'Top 10 customers by spending':
-
 <img src="https://github.com/user-attachments/assets/b56bd4fa-c499-4a8b-9244-c46c4277c078" width="450">
 <br>
 <img src="https://github.com/user-attachments/assets/48a11d36-208b-42ca-9520-5439f8c103c5" width="450">
 
 
 # To find 'Most profitable product color':
-
 <img src="https://github.com/user-attachments/assets/9721589b-b6fa-4693-87d9-3543d9ff642b" width="450">
 <br>
 <img src="https://github.com/user-attachments/assets/3753dede-4097-419b-80e0-8a6b6abe3828" width="450">
 
 
 # To find 'Products with declining monthly sales':
-
 <img src="https://github.com/user-attachments/assets/6aeeb954-cca9-4fb6-9e43-860ab45aa013" width="450">
 <br>
 <img src="https://github.com/user-attachments/assets/f5fa63f1-c213-4f4c-8eae-6de7107298bb" width="450">
+<br>
 <br>
 
 
