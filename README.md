@@ -30,7 +30,7 @@ products_table columns include:
 I will begin my analysis by importing both tables into Excel and merging the two .csv files into one .xlsx file having two sheets to work with. I will check for duplicate rows. I will remove extra spaces. I will convert text dates to integer dates. I will filter columns to check for blanks and decide to replace with "Unknown", "NA", or just leave blank.
 I will then convert my .xlsx file into a .csv file so that I can import it into Bigquery so that I can run some SQL commands since Bigquery does not accept .xlsx files.
 
----SQL commands used for data analysis---
+---SQL queries used for data analysis---
 
 # To find 'Total Revenue':
 <img src="https://github.com/user-attachments/assets/1259388b-7134-4b27-b9f3-f7b4cb9b8d39" width="450">
@@ -47,12 +47,24 @@ I will then convert my .xlsx file into a .csv file so that I can import it into 
 <br>
 <img src="https://github.com/user-attachments/assets/5945ba8f-349b-4a07-9a7a-fe01b3457c7b" width="450">
 
-# To find 'Revenue by category':
+# To find 'Total category revenue':
 <img src="https://github.com/user-attachments/assets/e1b483f6-1542-4183-ae88-b8de968baa2b" width="450">
 <br>
 <img src="https://github.com/user-attachments/assets/e2e4f252-0660-4939-add0-b42456b267d0" width="450">
+
+
+
+
+# To find 'Total category profit':
+<img src="https://github.com/user-attachments/assets/fd7e2f20-75f1-475a-9c6c-270fdf299056" width="450">
+<br>
+<img src="https://github.com/user-attachments/assets/b5851036-5020-4d07-a8ff-13880e491e5d" width="450">
 <br>
 <img src="https://github.com/user-attachments/assets/5cfb40a0-62ea-42c1-ae05-b096ecabfaaa" width="450">
+
+
+
+
 
 # To find 'Top 5 best selling products':
 <img src="https://github.com/user-attachments/assets/50267dcb-747d-4f81-a80f-4ca1ec99c679" width="450">
