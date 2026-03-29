@@ -48,31 +48,37 @@ SQL commands used for data analysis---
 
 # To find 'Revenue by product':
 
-<img src="https://github.com/user-attachments/assets/18f30af4-84c6-4555-8def-ec644cfbd02c" width="450">
+<img src="https://github.com/user-attachments/assets/d4b3854b-8642-4859-a859-2ba9d0747701" width="450">
 
 
 
 # To find 'Revenue by category':
-<img src="https://github.com/user-attachments/assets/41fdefe1-a1ac-45be-a6c8-a3fdb3f1045a" width="450">
+
+<img src="https://github.com/user-attachments/assets/b588faa7-f7cd-4cb0-b448-448bc905802e" width="450">
 
 
 # To find 'Top 5 best selling products':
+
 <img src="https://github.com/user-attachments/assets/a313c775-c444-4e65-9d49-528dac95c564" width="450">
 
 
 
 # To find 'Top 10 customers by spending':
+
 <img src="https://github.com/user-attachments/assets/321dde2d-f53e-4a87-9a15-e80bd043aa19" width="450">
 
 
 
 # To find 'Most profitable product color':
+
 <img src="https://github.com/user-attachments/assets/40864d0c-95b2-4dcf-9fee-6d58aff8fae8" width="450">
 
 
 
 # To find 'Products with declining monthly sales':
+
 <img src="https://github.com/user-attachments/assets/6aeeb954-cca9-4fb6-9e43-860ab45aa013" width="450">
+
 <img src="https://github.com/user-attachments/assets/f5fa63f1-c213-4f4c-8eae-6de7107298bb" width="450">
 
 
