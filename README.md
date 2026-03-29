@@ -35,12 +35,15 @@ SQL commands used for data analysis:
 To find 'Total Revenue'
 SELECT SUM(price * quantity) AS total_revenue
 FROM `e-nebula-483700-a8.case_study1.cs_orders_table`
+<img src="https://github.com/user-attachments/assets/39ebb547-45ec-47da-a284-420c1c63672c" width="450">
+
 
 To find 'Orders by shipping method'
 <img src="https://github.com/user-attachments/assets/0e9a9dfe-3a60-4879-816d-62961cf6baaa" width="450">
 SELECT shipping_method, COUNT(*) AS total_orders
 FROM orders
 GROUP BY shipping_method;
+
 
 To find 'Revenue by product'
 <img src="https://github.com/user-attachments/assets/18f30af4-84c6-4555-8def-ec644cfbd02c" width="450">
@@ -53,6 +56,7 @@ ON o.product_id = p.product_id
 GROUP BY p.product_name
 ORDER BY revenue DESC;
 
+
 To find 'Revenue by category'
 <img src="https://github.com/user-attachments/assets/41fdefe1-a1ac-45be-a6c8-a3fdb3f1045a" width="450">
 SELECT
@@ -62,6 +66,7 @@ FROM orders o
 JOIN product p
 ON o.product_id = p.product_id
 GROUP BY p.product_category;
+
 
 To find top 5 best selling products
 <img src="https://github.com/user-attachments/assets/a313c775-c444-4e65-9d49-528dac95c564" width="450">
@@ -75,6 +80,7 @@ GROUP BY p.product_name
 ORDER BY total_sold DESC
 LIMIT 5;
 
+
 To find top 10 customers by spending
 <img src="https://github.com/user-attachments/assets/321dde2d-f53e-4a87-9a15-e80bd043aa19" width="450">
 SELECT
@@ -84,6 +90,7 @@ FROM orders
 GROUP BY customer_id
 ORDER BY total_spent DESC
 LIMIT 10;
+
 
 To find most profitable product color
 <img src="https://github.com/user-attachments/assets/40864d0c-95b2-4dcf-9fee-6d58aff8fae8" width="450">
@@ -95,6 +102,7 @@ JOIN products p
 ON o.product_id = p.product_id
 GROUP BY p.color
 ORDER BY revenue DESC;
+
 
 To find products with declining monthly sales
 <img src="https://github.com/user-attachments/assets/6aeeb954-cca9-4fb6-9e43-860ab45aa013" width="450">
