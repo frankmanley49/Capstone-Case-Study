@@ -51,6 +51,8 @@ I will then convert my .xlsx file into a .csv file so that I can import it into 
 <img src="https://github.com/user-attachments/assets/e1b483f6-1542-4183-ae88-b8de968baa2b" width="450">
 <br>
 <img src="https://github.com/user-attachments/assets/e2e4f252-0660-4939-add0-b42456b267d0" width="450">
+<br>
+<img src="https://github.com/user-attachments/assets/5cfb40a0-62ea-42c1-ae05-b096ecabfaaa" width="450">
 
 # To find 'Top 5 best selling products':
 <img src="https://github.com/user-attachments/assets/50267dcb-747d-4f81-a80f-4ca1ec99c679" width="450">
