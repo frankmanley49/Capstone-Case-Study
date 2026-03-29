@@ -50,10 +50,13 @@ I will then convert my .xlsx file into a .csv file so that I can import it into 
 
 
 
-# To find 'Total category revenue':
-<img src="https://github.com/user-attachments/assets/e1b483f6-1542-4183-ae88-b8de968baa2b" width="450">
+# To find 'Total revenue by category':
+<img src="https://github.com/user-attachments/assets/a7f07fda-ab1b-4e17-a995-17223c2a0872" width="450">
 <br>
-<img src="https://github.com/user-attachments/assets/e2e4f252-0660-4939-add0-b42456b267d0" width="450">
+<img src="https://github.com/user-attachments/assets/112f862c-052e-486a-b069-8dd7fcf40b32" width="450">
+<br>
+<img src="https://github.com/user-attachments/assets/296012fc-0065-4961-8e24-68c07701806a" width="450">
+
 
 
 
