@@ -42,10 +42,13 @@ I will then convert my .xlsx file into a .csv file so that I can import it into 
 <br>
 <img src="https://github.com/user-attachments/assets/2fb9f817-e214-43d5-a087-817c317bddcf" width="450">
 
-# To find 'Revenue by product':
-<img src="https://github.com/user-attachments/assets/140f97d6-0d1b-4eee-af4b-9a4b067c6b04" width="450">
+# To find 'Total revenue by product':
+<img src="https://github.com/user-attachments/assets/4f222f4c-2467-4119-bb17-8686d5fdbfd6" width="450">
 <br>
-<img src="https://github.com/user-attachments/assets/5945ba8f-349b-4a07-9a7a-fe01b3457c7b" width="450">
+<img src="https://github.com/user-attachments/assets/034ae9fb-2852-4520-979f-b247d2b59b51" width="450">
+
+
+
 
 # To find 'Total category revenue':
 <img src="https://github.com/user-attachments/assets/e1b483f6-1542-4183-ae88-b8de968baa2b" width="450">
