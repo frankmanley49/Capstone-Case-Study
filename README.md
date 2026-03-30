@@ -1,7 +1,11 @@
 # Google Data Analytics Capstone Case Study
 
-   This presentation is a project for my Google Data Analytics capstone case study. I am using a synthetic dataset generated with ChatGPT that has 2 tables. I have given this fictitious small outdoor camping retail business the name of "Outdoor Palooza". Items such as trail running shoes, hiking socks, backpacks, lanterns, and foldable chairs are some of the items offered for sale. This synthetic dataset provides a safe, realistic environment for exploring sales trends, customer behavior, inventory count as well as practicing exploratory data analysis.
-
+   This presentation is a project for my Google Data Analytics capstone case study. I am using a synthetic dataset that was
+generated with ChatGPT and has 2 tables. It represents a retail operation for an outdoor gear business which I have named
+"Outdoor Palooza". It contains multiple interconnected tables, allowing for relational analysis (e.g., joining orders to 
+customers, products, and categories). Product categories are well-defined (e.g., Tents, Backpacks, Apparel, Accessories), 
+which supports category level profitability and demand analysis.
+       
 Tables included are orders_table and products_table.
 
 orders_table columns include:                  
@@ -27,8 +31,13 @@ products_table columns include:
    - unit_cost
    - release_year
 
-I will begin my analysis by importing both tables into Excel and merging the two .csv files into one .xlsx file having two sheets to work with. I will check for duplicate rows. I will remove extra spaces. I will convert text dates to integer dates. I will filter columns to check for blanks and decide to replace with "Unknown", "NA", or just leave blank.
-I will then convert my .xlsx file into a .csv file so that I can import it into Bigquery so that I can run some SQL commands since Bigquery does not accept .xlsx files.
+   I will begin my analysis by importing both tables into Excel and merging the two .csv files into one .xlsx file and having two
+sheets to work with. I will check for duplicate rows. I will remove extra spaces. I will convert text dates to integer dates. I 
+will filter columns to check for blanks and decide to replace them with "Unknown", "NA", or just leave blank. No extreme outliers
+were present in pricing or quantity, suggestins the synthetic data was generated with realistic retail constraints. The dataset
+does not include marketing spent or promotional activity, so demand drivers cannot be fully isolated. Shipping costs are not 
+included, so total operational cost analysis is limited. I will then convert my .xlsx file into a .csv file so that I can import
+it into Bigquery where I will run some SQL queries since Bigquery does not support .xlsx files.
 
 ---SQL queries used for data analysis---
 
@@ -36,11 +45,6 @@ I will then convert my .xlsx file into a .csv file so that I can import it into 
 <img src="https://github.com/user-attachments/assets/1259388b-7134-4b27-b9f3-f7b4cb9b8d39" width="450">
 <br>
 <img src="https://github.com/user-attachments/assets/0b709784-8379-40b3-a0f6-559684db134f" width="450">
-
-# To find 'Orders by shipping method':
-<img src="https://github.com/user-attachments/assets/eba8fa48-7365-400d-a715-09f7bc112b86" width="450">
-<br>
-<img src="https://github.com/user-attachments/assets/2fb9f817-e214-43d5-a087-817c317bddcf" width="450">
 
 # To find 'Total revenue by product':
 <img src="https://github.com/user-attachments/assets/4f222f4c-2467-4119-bb17-8686d5fdbfd6" width="450">
@@ -78,13 +82,17 @@ I will then convert my .xlsx file into a .csv file so that I can import it into 
 <br>
 <img src="https://github.com/user-attachments/assets/80436b79-919a-467c-a4d7-4548edfb5d7d" width="450">
 
+# To find 'Orders by shipping method':
+<img src="https://github.com/user-attachments/assets/eba8fa48-7365-400d-a715-09f7bc112b86" width="450">
+<br>
+<img src="https://github.com/user-attachments/assets/2fb9f817-e214-43d5-a087-817c317bddcf" width="450">
+
 # To find 'Products with declining monthly sales':
 <img src="https://github.com/user-attachments/assets/6aeeb954-cca9-4fb6-9e43-860ab45aa013" width="450">
 <br>
 <img src="https://github.com/user-attachments/assets/f5fa63f1-c213-4f4c-8eae-6de7107298bb" width="450">
 <br>
 <br>
-
 
 
 # Questions to Explore:
@@ -94,11 +102,26 @@ I will then convert my .xlsx file into a .csv file so that I can import it into 
 - Which product categories hold the highest appeal among customers?
 - What is the customer purchase frequency by product category?
 - Are there distinct purchasing behaviors based on the number of items bought per transaction?
+- Which products justify expanded manufacturing?
 - Where best to add additonal manufacturing?
 
+# Insights about the dataset
 
-* I will show my visualizations here.
+The Outdoor Palooza dataset provides a rich, multi‑table view of a fictional outdoor‑gear retailer. After
+cleaning and standardizing the data, it supports reliable calculations of category profitability, top‑selling
+products, customer spending patterns, and operational metrics such as shipping method usage. While the dataset
+lacks marketing and time‑series inventory data, it is well‑structured for exploring product performance,
+customer value, and opportunities for business growth. 
 
-* List insights here. 
+Recommendations to the stakeholders include:
 
-* I will address the stakeholders here.
+- Expanding high-margin categories.
+- Optimizing shipping methods based on order volume.
+- Downward sales trends for some products should be reviewed for potential discontinuation, bundling, or
+  targeted promotions to clear slow-moving inventory.
+- Prioritize high-value customers with loyalty and retention programs since they are the smallest group that
+  contributes a disproportionately larger share of total revenue.
+
+Overall, the findings highlight meaningful opportunities to optimize the product mix, enhance customer
+retention, and align operations with real demand trends. With continued monitoring and refinement, Outdoor
+Palooza can leverage these insights to support sustainable growth and long-term success.
