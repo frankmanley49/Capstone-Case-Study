@@ -34,7 +34,7 @@ products_table columns include:
    I will begin my analysis by importing both tables into Excel and merging the two .csv files into one .xlsx file and having two
 sheets to work with. I will check for duplicate rows. I will remove extra spaces. I will convert text dates to integer dates. I 
 will filter columns to check for blanks and decide to replace them with "Unknown", "NA", or just leave blank. No extreme outliers
-were present in pricing or quantity, suggestins the synthetic data was generated with realistic retail constraints. The dataset
+were present in pricing or quantity, suggesting the synthetic data was generated with realistic retail constraints. The dataset
 does not include marketing spent or promotional activity, so demand drivers cannot be fully isolated. Shipping costs are not 
 included, so total operational cost analysis is limited. I will then convert my .xlsx file into a .csv file so that I can import
 it into Bigquery where I will run some SQL queries since Bigquery does not support .xlsx files.
